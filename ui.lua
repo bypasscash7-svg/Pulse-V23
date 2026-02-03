@@ -617,13 +617,26 @@ function PulseUI:CreateWindow(opts)
 		end)
 	end
 
+	local tabsScroll = create("ScrollingFrame", {
+		Name = "TabsScroll",
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 1, -58),
+		CanvasSize = UDim2.new(0, 0, 0, 0),
+		ScrollBarThickness = 3,
+		ScrollBarImageColor3 = THEME.accent2,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+	})
+	tabsScroll.Parent = sidebar
+
 	local tabsHolder = create("Frame", {
 		Name = "Tabs",
 		BackgroundTransparency = 1,
 		BorderSizePixel = 0,
-		Size = UDim2.new(1, 0, 1, -58),
+		Size = UDim2.new(1, 0, 1, 0),
+		AutomaticSize = Enum.AutomaticSize.Y,
 	})
-	tabsHolder.Parent = sidebar
+	tabsHolder.Parent = tabsScroll
 
 	local sideList = create("UIListLayout", {
 		Padding = UDim.new(0, 8),
