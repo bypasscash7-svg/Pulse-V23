@@ -337,7 +337,7 @@ do
         utility:Requirement(type(info)=="table","Info must be a table!")
         utility:Requirement(info.Name,"Missing config folder argument")
         if info.Color==nil then
-            info.Color = Color3.fromRGB(164, 53, 90)
+            info.Color = Color3.fromRGB(46, 204, 113)
         end
         if info.Credit==nil then
             info.Credit = "Made with love <3"
@@ -1255,7 +1255,7 @@ do
             Converted["_Ignore"].Name = "Ignore"
             Converted["_Ignore"].Parent = Converted["_Theme"]
 
-            Converted["_Line"].BackgroundColor3 = Color3.fromRGB(164.00000542402267, 53.00000064074993, 90.00000223517418)
+            Converted["_Line"].BackgroundColor3 = Color3.fromRGB(46, 204, 113)
             Converted["_Line"].BorderSizePixel = 0
             Converted["_Line"].Position = UDim2.new(0, 0, 0, 32)
             Converted["_Line"].Size = UDim2.new(1, 0, 0, 2)
@@ -1353,7 +1353,7 @@ do
 
             Converted["_Title"].Font = Enum.Font.GothamBlack
             Converted["_Title"].Text = "Frise X"
-            Converted["_Title"].TextColor3 = Color3.fromRGB(164.00000542402267, 53.00000064074993, 90.00000223517418)
+            Converted["_Title"].TextColor3 = Color3.fromRGB(46, 204, 113)
             Converted["_Title"].TextSize = 16
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
             Converted["_Title"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -5056,7 +5056,7 @@ do
 
             Converted["_Frame"].AnchorPoint = Vector2.new(1, 0.5)
             Converted["_Frame"].AutomaticSize = Enum.AutomaticSize.X
-            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(164.00000542402267, 53.00000064074993, 90.00000223517418)
+            Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(46, 204, 113)
             Converted["_Frame"].Position = UDim2.new(1, 0, 0.5, 0)
             Converted["_Frame"].Size = UDim2.new(0, 1, 1, 0)
             Converted["_Frame"].Parent = Converted["_Interactable"]
